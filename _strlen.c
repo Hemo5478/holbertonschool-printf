@@ -7,7 +7,7 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 
-int _strlen(char *s)
+int _strlen(const char *s)
 {
 	int i;
 
