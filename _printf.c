@@ -6,6 +6,7 @@ int _printf(const char *format, ...)
 	int hemo;
 
 	va_list args;
+
 	va_start(args, format);
 
 	hemo = 0;
@@ -24,6 +25,7 @@ int _printf(const char *format, ...)
 			else if (*format == 's')
 			{
 				const char *str = va_arg(args, const char *);
+
 				_print_str(str);
 				hemo += _strlen(str);
 			}
