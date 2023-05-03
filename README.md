@@ -1,7 +1,8 @@
 Printf
-Overview: This paper explains how _printf works, and how to design the proper formatting specification for any occasion Prototype of _printf function int _printf(const char *format, ...); Returns: the number of characters printed (excluding the null byte used to end output to strings).
+📃Overview:
+This paper explains how _printf works, and how to design the proper formatting specification for any occasion Prototype of _printf function int _printf(const char *format, ...); Returns: the number of characters printed (excluding the null byte used to end output to strings).
 
-Usage
+🛠 Usage
 Include main.h Call _printf, passing a formatted string with any format specifiers and optional arguments Upon success, it writes desired output to stdout Upon error, it returns -1 If NULL is passed in as a string argument, it prints (null) Format Specifier.
 
 Format
