@@ -25,7 +25,7 @@ Format
 %x or %X print unsigned hexadecimal (x and X) notation. The letters abcdef are used for x conversions; the let- ters ABCDEF are used for X conversions.
 
 Example Usage
-To use the _printf function you simply need to compile all files .c including the header holberton.h with a main function.
+To use the _printf function you simply need to compile all files .c including the header main.h with a main function.
 
 Example:
 main.c
