@@ -11,6 +11,6 @@
 
 int _printf(const char* format, ...);
 void _print_str(const char* str);
-int _strlen(char *s);
+int _strlen(const char *s);
 
 #endif
