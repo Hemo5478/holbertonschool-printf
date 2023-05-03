@@ -9,4 +9,8 @@
 #include <sys/wait.h>
 #include <stdarg.h>
 
+int _printf(const char* format, ...);
+void _print_str(const char* str);
+int _strlen(char *s);
+
 #endif
